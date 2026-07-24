@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { motion } from 'framer-motion';
 import {
   Search,
   ShoppingCart,
@@ -324,7 +325,12 @@ export default function Menu() {
   }
 
   return (
-    <div className="min-h-screen bg-[#faf9f7] relative pb-32 font-sans flex flex-col items-center w-full">
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="min-h-screen bg-[#faf9f7] relative pb-32 font-sans flex flex-col items-center w-full"
+    >
       {/* Top Header */}
       <div 
         className="w-full h-80 sm:h-[450px] bg-cover bg-center relative"
@@ -521,6 +527,6 @@ export default function Menu() {
         onClose={() => setShowCardModal(false)}
         onConfirm={handleCardConfirm}
       />
-    </div>
+    </motion.div>
   );
 }

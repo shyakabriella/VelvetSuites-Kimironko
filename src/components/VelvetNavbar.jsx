@@ -42,15 +42,18 @@ export default function VelvetNavbar({ currentPath }) {
     navigate(to);
   };
 
+  const forceSolid = currentPath.startsWith('/blog/') && currentPath !== '/blog';
+  const isSolid = scrolled || forceSolid;
+
   return (
     <>
       {/* ══ NAVBAR ══ */}
-      <header className={`vs-navbar ${scrolled ? 'scrolled' : ''}`} style={{
+      <header className={`vs-navbar ${isSolid ? 'scrolled' : ''}`} style={{
         minHeight: 'clamp(80px, 14vw, 140px)',
         display: 'flex',
         alignItems: 'center',
-        background: scrolled ? '#3b0404' : 'transparent',
-        borderBottom: scrolled ? 'none' : '1px solid rgba(255, 255, 255, 0.15)'
+        background: isSolid ? '#3b0404' : 'transparent',
+        borderBottom: isSolid ? 'none' : '1px solid rgba(255, 255, 255, 0.15)'
       }}>
         <div className="vs-navbar-inner" style={{ position: 'relative', width: '100%' }}>
 
@@ -116,7 +119,17 @@ export default function VelvetNavbar({ currentPath }) {
 
           {/* ── RIGHT: tel + reserve button ── */}
           <div className="vs-nav-right" style={{ flex: 1, justifyContent: 'flex-end' }}>
-            <span className="vs-nav-tel">Tel: +250 781 423 080</span>
+            <a 
+              href="/blog"
+              onClick={(e) => {
+                e.preventDefault();
+                navigate('/blog');
+              }}
+              className="vs-nav-tel"
+              style={{ textDecoration: 'none', cursor: 'pointer' }}
+            >
+              BLOG
+            </a>
 
             <a
               href="https://direct-book.com/properties/velvetsuites?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no"
@@ -124,25 +137,25 @@ export default function VelvetNavbar({ currentPath }) {
               rel="noopener noreferrer"
               className="vs-reserve-btn"
               style={{
-                color: scrolled ? '#111' : '#fff',
-                background: scrolled ? '#fff' : 'transparent',
+                color: isSolid ? '#111' : '#fff',
+                background: isSolid ? '#fff' : 'transparent',
               }}
               onMouseEnter={e => {
-                if (!scrolled) {
+                if (!isSolid) {
                   e.currentTarget.style.background = 'rgba(255,255,255,0.1)';
                 } else {
                   e.currentTarget.style.background = '#f0f0f0';
                 }
               }}
               onMouseLeave={e => {
-                if (!scrolled) {
+                if (!isSolid) {
                   e.currentTarget.style.background = 'transparent';
                 } else {
                   e.currentTarget.style.background = '#fff';
                 }
               }}
             >
-              Reserve Now {scrolled && <span style={{ fontSize: '14px', lineHeight: 1 }}>›</span>}
+              Reserve Now {isSolid && <span style={{ fontSize: '14px', lineHeight: 1 }}>›</span>}
             </a>
           </div>
 

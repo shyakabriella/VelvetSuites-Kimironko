@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { motion } from 'framer-motion';
 import './Gallery.css';
 
 const galleryImages = [
@@ -16,7 +17,12 @@ export default function Gallery() {
   }, []);
 
   return (
-    <div className="vs-gallery-page">
+    <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="vs-gallery-page"
+    >
       {/* Hero Section */}
       <section className="vs-gallery-hero">
         <div className="vs-gallery-hero-overlay" />
@@ -37,6 +43,6 @@ export default function Gallery() {
           ))}
         </div>
       </section>
-    </div>
+    </motion.div>
   );
 }

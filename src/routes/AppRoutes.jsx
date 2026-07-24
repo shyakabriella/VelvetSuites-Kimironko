@@ -16,6 +16,8 @@ import Policies from "../pages/Policies";
 import NotFound from "../pages/NotFound";
 import Login from "../pages/Login";  // ← Updated: Login is in pages folder
 import Dashboard from "../pages/Dashboard";
+import Blog from "../pages/Blog";
+import BlogDetail from "../pages/BlogDetail";
 
 const SuiteDetailWrapper = () => {
   const { slug } = useParams();
@@ -62,6 +64,8 @@ export default function AppRoutes() {
         <Route path="restaurant" element={<Dining />} />
         <Route path="menu" element={<Menu />} />
         <Route path="gallery" element={<Gallery />} />
+        <Route path="blog" element={<Blog />} />
+        <Route path="blog/:id" element={<BlogDetail />} />
         <Route path="stories" element={<Stories />} />
         <Route path="book" element={<Book />} />
         <Route path="policies" element={<Policies />} />

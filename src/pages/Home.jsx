@@ -18,7 +18,7 @@ import ScrollReveal from '../components/ScrollReveal';
 
 export default function Home() {
   return (
-    <div className="vs-page overflow-x-hidden">
+    <div className="vs-page">
       <VelvetHero />
       <ScrollReveal><VelvetWelcome /></ScrollReveal>
       <ScrollReveal><VelvetRooms /></ScrollReveal>

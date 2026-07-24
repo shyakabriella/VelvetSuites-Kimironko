@@ -1,8 +1,25 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 export default function VelvetHero() {
   const navigate = useNavigate();
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+        delayChildren: 0.3
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
+  };
 
   return (
     <section className="vs-hero relative h-screen flex items-center justify-center overflow-hidden">
@@ -16,17 +33,28 @@ export default function VelvetHero() {
       <div className="absolute inset-0 bg-black/50" />
 
       {/* Hero Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide" style={{ fontFamily: 'var(--font-heading)' }}>
+      <motion.div 
+        className="relative z-10 flex flex-col items-center justify-center text-center px-4 max-w-4xl mx-auto"
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <motion.h1 
+          variants={itemVariants}
+          className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-wide" 
+          style={{ fontFamily: 'var(--font-heading)' }}
+        >
           Comfort, Relaxation and Luxury in One Place
-        </h1>
+        </motion.h1>
         
-        <p className="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl font-light">
+        <motion.p 
+          variants={itemVariants}
+          className="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl font-light"
+        >
           Step into a world of refined elegance. Discover unmatched luxury, impeccable service, and a sanctuary of comfort designed exclusively for you.
-        </p>
+        </motion.p>
 
-        <div className="flex flex-col sm:flex-row gap-4">
-
+        <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
           <a
             href="https://direct-book.com/properties/velvetsuites?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no"
             target="_blank"
@@ -45,8 +73,8 @@ export default function VelvetHero() {
           >
             Explore Facilities
           </button>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

@@ -1,14 +1,20 @@
 import React from 'react';
 import ScrollReveal from '../components/ScrollReveal';
+import { motion } from 'framer-motion';
 
 export default function About() {
     return (
-        <div className="overflow-x-hidden">
+        <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            className="overflow-x-hidden"
+        >
             {/* Hero Section */}
             <section className="relative h-screen w-full flex items-center justify-center pt-[100px]">
                 <div 
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('/homepageimgs/628B0145-Edited-scaled.jpg.jpeg')` }}
+                    style={{ backgroundImage: `url('/aboutpage/image_5.jpg')` }}
                 />
                 <div className="absolute inset-0 bg-black/60" />
                 
@@ -193,6 +199,6 @@ export default function About() {
                     </div>
                 </ScrollReveal>
             </section>
-        </div>
+        </motion.div>
     );
 }
