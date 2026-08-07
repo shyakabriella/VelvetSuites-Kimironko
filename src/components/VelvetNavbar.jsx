@@ -3,7 +3,7 @@ import { useNavigate } from './Link';
 
 const navLinks = [
   { label: 'HOME', to: '/' },
-  { label: 'ABOUT US', to: '/about' },
+  { label: 'ABOUT US', to: 'https://direct-book.com/properties/velvetsuites/about?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-08-06&checkOutDate=2026-08-07&trackPage=no' },
   { label: 'POLICIES', to: 'https://direct-book.com/properties/velvetsuites/policies?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-07-16&checkOutDate=2026-07-17&trackPage=no' },
   { label: 'GALLERY', to: '/gallery' },
   { label: 'MENU', to: '/menu' },

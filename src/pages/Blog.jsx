@@ -5,27 +5,27 @@ import { useNavigate } from 'react-router-dom';
 const blogPosts = [
   {
     id: 1,
-    title: 'Experience Kigali: A Guide to the City\'s Hidden Gems',
-    excerpt: 'Discover the vibrant culture, art scenes, and culinary delights that Kigali has to offer just steps away from Velvet Suites.',
-    image: '/images/hotel_exterior.png',
+    title: 'Unwind in Style: Inside Our Signature Lounge Suites',
+    excerpt: 'Step into a world of warmth and comfort. Our spacious lounge suites feature plush velvet sofas, warm wood accents, and an atmosphere designed for true relaxation.',
+    image: '/velvet pictures/WhatsApp Image 2026-07-31 at 00.30.42 (1).jpeg',
     date: 'July 10, 2026',
-    category: 'Travel'
+    category: 'Suites'
   },
   {
     id: 2,
-    title: 'The Art of Luxury Hospitality',
-    excerpt: 'Behind the scenes at Velvet Suites: how we curate personalized experiences to ensure every guest feels truly special.',
-    image: '/images/velvet.png',
+    title: 'A Night Like No Other: Our Master Bedroom Experience',
+    excerpt: 'Drift into tranquility in our beautifully appointed master suites — crisp linens, handpicked African artwork, and the quiet elegance you deserve.',
+    image: '/velvet pictures/WhatsApp Image 2026-07-31 at 00.30.42 (2).jpeg',
     date: 'June 28, 2026',
-    category: 'Lifestyle'
+    category: 'Rooms'
   },
   {
     id: 3,
-    title: 'Taste of Velvet: Our New Summer Menu',
-    excerpt: 'Join us for a culinary journey with our newly unveiled summer menu featuring local ingredients and international flavors.',
-    image: '/images/dining_menu.png',
+    title: 'Comfort Meets Convenience: Our Standard Room Highlights',
+    excerpt: 'Every detail matters. From flat-screen entertainment to premium wooden finishes, our standard rooms deliver a premium stay without compromise.',
+    image: '/velvet pictures/WhatsApp Image 2026-07-31 at 00.30.42 (3).jpeg',
     date: 'June 15, 2026',
-    category: 'Dining'
+    category: 'Rooms'
   }
 ];
 

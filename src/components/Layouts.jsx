@@ -60,12 +60,14 @@ function MobileBottomBar() {
           </span>
         </a>
 
-        <button
-          onClick={() => navigate('/stays')}
+        <a
+          href="https://direct-book.com/properties/velvetsuites?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-08-06&checkOutDate=2026-08-07&trackPage=no"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center justify-center bg-[#c9a84c] hover:bg-[#d4b45a] text-black px-4 text-[13px] font-semibold uppercase tracking-[0.14em] transition-colors"
         >
           Book Now
-        </button>
+        </a>
       </div>
     </div>
   );

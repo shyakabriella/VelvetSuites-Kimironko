@@ -1,8 +1,6 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 
 export default function VelvetEvents() {
-  const navigate = useNavigate();
 
   return (
     <section className="py-20 px-4 bg-white" id="events-section">
@@ -39,7 +37,7 @@ export default function VelvetEvents() {
           </div>
 
           <button 
-            onClick={() => navigate('')}
+            onClick={() => window.open('https://direct-book.com/properties/velvetsuites/contact?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=USD&checkInDate=2026-08-07&checkOutDate=2026-08-08&trackPage=no', '_blank', 'noopener,noreferrer')}
             className="px-8 py-3 bg-[#3b0404] hover:bg-[#c9a84c] text-white hover:text-black font-semibold uppercase tracking-wider text-sm transition-colors rounded-sm"
           >
             Plan Your Event

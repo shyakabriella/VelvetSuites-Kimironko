@@ -6,54 +6,60 @@ import { motion } from 'framer-motion';
 const blogPosts = [
   {
     id: 1,
-    title: 'Experience Kigali: A Guide to the City\'s Hidden Gems',
-    excerpt: 'Discover the vibrant culture, art scenes, and culinary delights that Kigali has to offer just steps away from Velvet Suites.',
-    image: '/images/hotel_exterior.png',
+    title: 'Unwind in Style: Inside Our Signature Lounge Suites',
+    excerpt: 'Step into a world of warmth and comfort. Our spacious lounge suites feature plush velvet sofas, warm wood accents, and an atmosphere designed for true relaxation.',
+    image: '/velvet pictures/WhatsApp Image 2026-07-31 at 00.30.42 (1).jpeg',
     date: 'July 10, 2026',
-    category: 'Travel',
-    content: `Kigali is a city of rolling hills, vibrant culture, and a burgeoning culinary scene. When you stay at Velvet Suites, you are perfectly positioned to explore everything this remarkable city has to offer. 
+    category: 'Suites',
+    content: `At Velvet Suites, we believe that coming home should feel extraordinary — and our Signature Lounge Suites are designed to deliver exactly that.
 
-Here are some hidden gems you must visit:
+Each lounge suite is anchored by a plush, full sofa set upholstered in premium fabric, paired with coordinating armchairs and a solid wood coffee table. The warm tones of teak and walnut flow seamlessly through the room, complemented by sheer floor-to-ceiling curtains that bathe the space in soft, natural light.
 
-1. **Inema Arts Center**: Just a short drive away, this center showcases the best of contemporary Rwandan art. It's a fantastic place to see the creative heartbeat of the city.
-2. **Kimironko Market**: For a truly local experience, visit this bustling market. From fresh produce to vibrant fabrics, it's a sensory delight.
-3. **Question Coffee Cafe**: Kigali has a thriving coffee culture. Visit Question Coffee to taste some of the best locally sourced and roasted coffee in Rwanda.
+What sets our lounge suites apart:
 
-After a day of exploring, return to the sanctuary of Velvet Suites to relax and rejuvenate.`
+- **Generous Space**: Designed for comfort whether you are hosting guests, catching up on work, or simply stretching out after a long day.
+- **Curated Furniture**: Every piece is hand-selected to balance elegance with ease — nothing feels forced, everything feels right.
+- **Warm Lighting**: Thoughtfully placed wall fixtures create a cosy ambiance that transitions effortlessly from bright afternoons to relaxed evenings.
+
+Our lounge suites are the perfect retreat for those who value space, warmth, and understated luxury. Come, settle in, and let Velvet Suites take care of the rest.`
   },
   {
     id: 2,
-    title: 'The Art of Luxury Hospitality',
-    excerpt: 'Behind the scenes at Velvet Suites: how we curate personalized experiences to ensure every guest feels truly special.',
-    image: '/images/velvet.png',
+    title: 'A Night Like No Other: Our Master Bedroom Experience',
+    excerpt: 'Drift into tranquility in our beautifully appointed master suites — crisp linens, handpicked African artwork, and the quiet elegance you deserve.',
+    image: '/velvet pictures/WhatsApp Image 2026-07-31 at 00.30.42 (2).jpeg',
     date: 'June 28, 2026',
-    category: 'Lifestyle',
-    content: `At Velvet Suites, we believe that true luxury lies in the details. It's not just about opulent rooms or high-end amenities; it's about the feeling you get when your every need is anticipated.
+    category: 'Rooms',
+    content: `A great night’s sleep is the foundation of a great stay — and at Velvet Suites, our master bedrooms are crafted with that truth at heart.
 
-Our philosophy is built on three pillars:
+Enter and you are immediately greeted by a king-size bed dressed in crisp white linens, accented with sage green cushions and a matching runner that adds a touch of refined colour. The rich walnut headboard and wardrobe bring depth and warmth, while three carefully chosen pieces of African-inspired artwork bring culture and character to the walls.
 
-- **Personalization**: Before you even arrive, our team is preparing for your stay. We note your preferences and tailor your experience accordingly.
-- **Authenticity**: We blend international standards of luxury with genuine Rwandan hospitality, ensuring a warm and authentic experience.
-- **Excellence**: From our culinary offerings to our housekeeping, we maintain the highest standards of excellence.
+What makes our master rooms truly special:
 
-Experience the art of luxury hospitality for yourself at Velvet Suites.`
+- **Premium Bedding**: We use hotel-grade linens that are soft, breathable, and impeccably pressed for every guest.
+- **Authentic Art**: Each piece on the wall has been chosen to celebrate African heritage — a reminder of the vibrant culture surrounding Velvet Suites.
+- **Thoughtful Storage**: A full-height wardrobe with polished handles ensures you can settle in and feel at home, however long your stay.
+
+Whether you are visiting Kigali for business or leisure, our master bedrooms offer the restorative rest you need to make the most of every day.`
   },
   {
     id: 3,
-    title: 'Taste of Velvet: Our New Summer Menu',
-    excerpt: 'Join us for a culinary journey with our newly unveiled summer menu featuring local ingredients and international flavors.',
-    image: '/images/dining_menu.png',
+    title: 'Comfort Meets Convenience: Our Standard Room Highlights',
+    excerpt: 'Every detail matters. From flat-screen entertainment to premium wooden finishes, our standard rooms deliver a premium stay without compromise.',
+    image: '/velvet pictures/WhatsApp Image 2026-07-31 at 00.30.42 (3).jpeg',
     date: 'June 15, 2026',
-    category: 'Dining',
-    content: `Our culinary team has been hard at work crafting a menu that celebrates the vibrant flavors of summer. We've sourced the freshest local ingredients to create dishes that are both innovative and comforting.
+    category: 'Rooms',
+    content: `At Velvet Suites, “standard” is anything but ordinary. Our standard rooms are a testament to the idea that every guest — regardless of room type — deserves a genuinely exceptional experience.
 
-**Highlights of the New Menu:**
+Clean, bright, and thoughtfully appointed, each room features a comfortable bed with pristine white linens, a wall-mounted flat-screen TV, and warm wooden doors and cabinetry that give the space a grounded, homely feel. A private balcony with wrought-iron accents provides a serene spot to take in the fresh Kigali air.
 
-- **Lake Kivu Sambaza**: A local favorite, lightly fried and served with a zesty citrus aioli.
-- **Rwandan Beef Skewers**: Marinated in a blend of traditional spices and grilled to perfection.
-- **Tropical Fruit Pavlova**: A light and airy dessert featuring fresh, locally grown passion fruit and mango.
+Highlights you’ll find in every standard room:
 
-Pair your meal with a selection from our extensive wine list or try one of our signature summer cocktails. We invite you to taste the essence of summer at Velvet Suites.`
+- **Flat-Screen TV**: Stay connected or unwind with premium cable and streaming options at your fingertips.
+- **Natural Light**: Large windows and sheer curtains keep rooms airy and bright throughout the day.
+- **Wooden Craftsmanship**: Solid wood doors and built-in closet space reflect the quality finishes found throughout all Velvet Suites properties.
+
+Perfect for solo travellers or couples, our standard rooms offer everything you need for a smooth, comfortable stay — beautifully packaged at Velvet Suites.`
   }
 ];
 
