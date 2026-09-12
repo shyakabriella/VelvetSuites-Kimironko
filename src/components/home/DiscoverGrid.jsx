@@ -14,7 +14,7 @@ export default function DiscoverGrid() {
           </div>
           <p className="reveal max-w-sm text-sm leading-relaxed text-sand-200/70">
             Explore everything {site.name} offers — from comfortable rooms and
-            included breakfast to restaurant, pool, and laundry.
+            included breakfast, restaurant, bar, and laundry.
           </p>
         </div>
 

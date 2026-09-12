@@ -51,7 +51,7 @@ export const faqs = [
     },
     {
         q: 'What amenities does the hotel offer?',
-        a: 'Guests enjoy an outdoor swimming pool, garden, terrace, restaurant & lounge, free Wi-Fi throughout, free self parking, room service, and 24-hour reception.',
+        a: 'Guests enjoy a garden and terrace, restaurant & lounge, free Wi-Fi throughout, free self parking, room service, and 24-hour reception.',
     },
     {
         q: 'Can you accommodate dietary needs?',

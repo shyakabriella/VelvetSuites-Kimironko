@@ -43,10 +43,10 @@ export const menu = [
     {
         icon: IceCream,
         course: 'Bar',
-        name: 'Poolside Bar',
-        desc: 'Cold drinks and cocktails in the lounge and by the pool after a day in the park.',
+        name: 'Lounge Bar',
+        desc: 'Cold drinks and cocktails in the lounge after a day in the park.',
         price: '—',
-        tags: ['Bar', 'Poolside'],
+        tags: ['Bar', 'Lounge'],
     },
     {
         icon: UtensilsCrossed,

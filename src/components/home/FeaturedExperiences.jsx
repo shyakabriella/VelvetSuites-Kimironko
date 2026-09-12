@@ -9,7 +9,7 @@ export default function FeaturedExperiences() {
           <div className="max-w-2xl">
             <p className="eyebrow !text-sand-300/80 reveal">Services</p>
             <h2 className="reveal mt-5 font-display text-4xl font-medium leading-tight sm:text-5xl">
-              Restaurant, pool, laundry
+              Restaurant, bar, laundry
               <span className="italic text-sand-200"> and more.</span>
             </h2>
           </div>

@@ -12,7 +12,7 @@ export default function Experiences() {
     }));
     return (<>
       <PageHeader eyebrow="Services" title={<>
-            Restaurant, pool, laundry
+            Restaurant, bar, laundry
             <span className="italic text-sand-200"> and more.</span>
           </>} subtitle="Book any service with or without a room — restaurant, bar, laundry, and airport shuttle. Combine services however suits your trip." image={p5}/>
 

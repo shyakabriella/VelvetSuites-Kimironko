@@ -12,7 +12,7 @@ const APP_URL = API_URL.replace(/\/api$/, "");
 // Default data for About Section One
 const DEFAULT_DATA = {
   title: "ABOUT US",
-  description: "At Velvet suites, we redefine the essence of elegance, comfort, and hospitality. Nestled in a prime location, our five-star luxury establishment is a sanctuary for travellers who seek a perfect blend of contemporary style, world-class service, and unforgettable experiences. Whether you're staying for business or leisure, Velvet suites promises more than just accommodation – we deliver moments of excellence.",
+  description: "At Velvet suites, we redefine the essence of elegance, comfort, and hospitality. Nestled in a prime location, our five-star luxury establishment is a sanctuary for travellers seeking a perfect blend of contemporary style, world-class service, and unforgettable experiences. Whether you're staying for business or leisure, Velvet suites promises more than just accommodation – we deliver moments of excellence.",
   is_active: true,
   order: 1,
 };

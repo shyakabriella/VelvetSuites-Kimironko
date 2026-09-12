@@ -7,7 +7,7 @@ const pillars = [
     {
         icon: Leaf,
         title: 'Calm stays near the park',
-        body: 'Just 2–3 km from Akagera National Park South Entrance — close to the wild, with pool, garden, and quiet comfort waiting when you return.',
+        body: 'Just 2–3 km from Akagera National Park South Entrance — close to the wild, with a garden, terrace, and quiet comfort waiting when you return.',
     },
     {
         icon: Heart,
@@ -21,8 +21,8 @@ const pillars = [
     },
     {
         icon: Sun,
-        title: 'Pool, garden & breakfast',
-        body: 'Start each day with a full included breakfast, then unwind by the outdoor pool or in our tranquil garden and terrace.',
+        title: 'Garden, terrace Pool, garden & breakfast breakfast',
+        body: 'Start each day with a full included breakfast, then unwind in our tranquil garden and terrace.',
     },
 ];
 export default function Welcome() {
@@ -60,7 +60,7 @@ export default function Welcome() {
             <p className="reveal mt-4 text-base leading-relaxed text-forest-800/70">
               Whether you are exploring Akagera National Park or passing
               through Eastern Rwanda, our {site.roomCount} rooms, restaurant
-              & lounge, and outdoor pool give you everything you need for a
+              & lounge, garden, and terrace give you everything you need for a
               perfect getaway.
             </p>
 

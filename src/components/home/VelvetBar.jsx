@@ -29,7 +29,7 @@ export default function VelvetBar() {
               <span className="text-[#c9a84c] mr-3 text-xl">☕</span> Coffee and tea
             </div>
             <div className="flex items-center text-gray-700">
-              <span className="text-[#c9a84c] mr-3 text-xl">🍹</span> Fresh juice
+              <span className="text-[#c9a84c] mr-3 text-xl">🍹</span> Fresh Juice
             </div>
             <div className="flex items-center text-gray-700">
               <span className="text-[#c9a84c] mr-3 text-xl">🍸</span> Cocktails
@@ -40,9 +40,7 @@ export default function VelvetBar() {
             <div className="flex items-center text-gray-700">
               <span className="text-[#c9a84c] mr-3 text-xl">🥨</span> Snacks
             </div>
-            <div className="flex items-center text-gray-700">
-              <span className="text-[#c9a84c] mr-3 text-xl">🎵</span> Live music
-            </div>
+           
           </div>
 
           <div className="bg-[#faf9f6] p-6 rounded-sm border-l-4 border-[#c9a84c]">

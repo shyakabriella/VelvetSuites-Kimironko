@@ -15,7 +15,7 @@ const APP_URL = API_URL.replace(/\/api$/, "");
 // Default data for About Section Two
 const DEFAULT_DATA = {
   card_one_title: "Our Mission",
-  card_one_description: "To provide exceptional, personalized hospitality that exceeds expectations, making every guest feel genuinely valued and uniquely cared for. Our mission is to craft experiences that go beyond a typical hotel stay. We are committed to consistently delivering impeccable service, luxurious comfort, and authentic care through every detail – from our opulent rooms and gourmet dining to our warm staff and bespoke guest services. At Velvet suites, every visit is designed to be a memory worth keeping.",
+  card_one_description: "To provide exceptional, personalized hospitality that exceeds expectations, making every guest feel genuinely valued and uniquely cared for. Our mission is to craft experiences that go beyond a typical hotel stay. We are committed to consistently delivering impeccable service, luxurious comfort, and authentic care through every detail – from our opulent rooms and gourmet dining to our warm staff and bespoke guest services. At Velvet suites, every visit is designed to create a memorable experience.",
   card_one_layout: "left",
   card_one_image: null,
   card_two_title: "Our Vision",

@@ -1,5 +1,4 @@
 import p4 from '../Assets/p4.jpg';
-import p5 from '../Assets/p5.jpg';
 import laundry from '../Assets/laundry.png';
 export const experiences = [
     {
@@ -11,16 +10,6 @@ export const experiences = [
         longDesc: 'Our restaurant and lounge is the heart of Akagera Park Inn. Enjoy a full breakfast included with your room, then return for lunch and dinner featuring African, American, and Argentinian dishes. Dietary preferences are welcome — just let us know when you order.',
         image: p4,
         included: ['Full breakfast with rooms', 'Vegetarian options', 'Halal options', 'Room service', 'Bar service'],
-    },
-    {
-        slug: 'outdoor-pool',
-        title: 'Outdoor Pool & Garden',
-        duration: 'All day',
-        when: 'Year round',
-        body: 'Unwind in our outdoor swimming pool with a comfortable poolside sitting area, surrounded by gardens and mountain views.',
-        longDesc: 'Take a dip in our outdoor pool or relax in the comfortable poolside sitting area. The garden and terrace offer a calm setting to unwind after a day exploring Akagera National Park.',
-        image: p5,
-        included: ['Pool access', 'Garden & terrace', 'Poolside seating', 'Free for hotel guests'],
     },
     {
         slug: 'laundry-service',
@@ -37,10 +26,10 @@ export const experiences = [
         title: 'Bar & Drinks',
         duration: 'Evenings',
         when: 'Daily',
-        body: 'Poolside bar and lounge drinks — unwind with a cold drink after a day in the park.',
-        longDesc: 'Our bar serves refreshing drinks in the restaurant, lounge, and poolside areas. Combine with a restaurant booking or stop by on its own — no room reservation required.',
+        body: 'Bar and lounge drinks — unwind with a cold drink after a day in the park.',
+        longDesc: 'Our bar serves refreshing drinks in the restaurant and lounge areas. Combine with a restaurant booking or stop by on its own — no room reservation required.',
         image: 'https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=1000',
-        included: ['Poolside bar', 'Lounge service', 'Book without a room'],
+        included: ['Lounge bar', 'Lounge service', 'Book without a room'],
     },
     {
         slug: 'airport-shuttle',

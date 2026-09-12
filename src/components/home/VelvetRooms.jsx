@@ -54,7 +54,7 @@ export default function VelvetRooms() {
         </h2>
         <div className="w-24 h-1 bg-[#c9a84c] mx-auto mb-6"></div>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">
-          Discover a sanctuary of elegance. Each of our rooms and suites is meticulously designed with plush furnishings, modern amenities, and breathtaking views to provide you with the ultimate retreat.
+          Discover a sanctuary of elegance. Each of our rooms and suites is meticulously designed with plush furnishings, modern amenities, and breathtaking views to providing you with the ultimate retreat.
         </p>
       </div>
 
