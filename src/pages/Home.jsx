@@ -4,6 +4,7 @@ import VelvetHero from '../components/home/VelvetHero';
 import VelvetWelcome from '../components/home/VelvetWelcome';
 import VelvetMissionVision from '../components/home/VelvetMissionVision';
 import VelvetRooms from '../components/home/VelvetRooms';
+import VelvetLeadership from '../components/home/VelvetLeadership';
 import VelvetRestaurant from '../components/home/VelvetRestaurant';
 import VelvetFacilities from '../components/home/VelvetFacilities';
 import VelvetGallerySection from '../components/home/VelvetGallerySection';
@@ -22,6 +23,8 @@ export default function Home() {
       <ScrollReveal>
         <VelvetRooms />
       </ScrollReveal>
+
+      <VelvetLeadership />
 
       <ScrollReveal>
         <VelvetRestaurant />

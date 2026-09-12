@@ -52,7 +52,7 @@ export default function VelvetHero() {
         }}
       >
         <source
-          src="https://www.velvetsuites.rw/wp-content/uploads/2025/07/NGALI-Video-1.mp4"
+          src="/videos/velvet-highlights.mp4"
           type="video/mp4"
         />
       </motion.video>
