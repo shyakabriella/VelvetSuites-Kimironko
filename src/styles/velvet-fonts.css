@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/roboto.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("/fonts/roboto-slab.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --font-body: "Roboto", Arial, sans-serif;
+  --font-heading: "Roboto Slab", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-display {
+  font-family: var(--font-heading);
+}
